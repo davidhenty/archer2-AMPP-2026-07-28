@@ -21,7 +21,7 @@ Intended learning outcomes:
 
 *  Understanding of how internal MPI implementation details affect performance
 *  Advanced use of collectives via derived datatypes
-*  MPI shared-memory model
+*  Using the MPI shared-memory model to optimise per-node memory usage
 
 <h3>Prerequisites</h3>
 
@@ -65,8 +65,6 @@ for private study. </blockquote></p>
 <h3>Exercise Material</h3>
 
 <p><blockquote>Unless otherwise indicated all material is Copyright &copy; EPCC, The University of Edinburgh, and is only made available for private study. </blockquote></p>
-
-<h4>Day 1</h4>
 
 SLURM batch scripts are set to run in the short queue and should work any time. However, on days when the course is running, we have
 special reserved queues to guarantee fast turnaround.
