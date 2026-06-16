@@ -8,7 +8,7 @@ width="133" height="100">
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
-<h3>David Henty EPCC: 28 July 2025 10:00 - 16:00 BST, online</h3>
+<h3>David Henty EPCC: 28 July 2026 10:00 - 16:00 BST, online</h3>
 
 This course is aimed at programmers seeking to deepen their
 understanding of MPI and explore some of its more recent and advanced
