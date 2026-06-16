@@ -48,17 +48,17 @@ for private study. </blockquote></p>
 
 <h4>Tuesday 28th July</h4>
 
- *   10:00 - 10:15 <a href="https://github.com/EPCCed/archer2-AMPP-2025-07-29/raw/main/slides/L00-ARCHER2-Intro.pdf">ARCHER2 training</a>
- *   10:15 - 11:00 <a href="https://github.com/EPCCed/archer2-AMPP-2025-07-29/raw/main/slides/MPI-Internals.pdf">MPI Internals</a>
+ *   10:00 - 10:15 <a href="slides/L00-ARCHER2-Intro.pdf">ARCHER2 training</a>
+ *   10:15 - 11:00 <a href="slides/MPI-Internals.pdf">MPI Internals</a>
  *   11:00 - 11:15 Practical: Point-to-point performance
  *   11:15 - 11:30 Coffee Break
  *   11:30 - 11:45 Practical: Point-to-point performance (continued)
- *   11:45 - 12:30 <a href="https://github.com/EPCCed/archer2-AMPP-2026-07-28/raw/main/slides/MPI-Optimisation-ARCHER2.pdf">MPI Optimisations</a>
+ *   11:45 - 12:30 <a href="slides/MPI-Optimisation-ARCHER2.pdf">MPI Optimisations</a>
  *   12:30 - 13:00 Practical: Halo Swapping / Eager Limits
  *   13:00 - 14:00 Lunch
- *   14:00 - 14:30  <a href="https://github.com/EPCCed/archer2-AMPP-2026-07-28/raw/main/slides/AMPP-Advanced-Collectives.pdf">Advanced Collectives<a>
+ *   14:00 - 14:30  <a href="slides/AMPP-Advanced-Collectives.pdf">Advanced Collectives<a>
  *   14:30 - 15:00 Worked Example: Advanced Collectives
- *   15:00 - 15:30 <a href="https://github.com/EPCCed/archer2-AMPP-2026-07-28/raw/main/slides/SharedMemoryRMA.pdf">New MPI shared-memory model</a>
+ *   15:00 - 15:30 <a href="slides/SharedMemoryRMA.pdf">New MPI shared-memory model</a>
  *   15:30 - 16:00 Worked Example: Shared Memory in MPI
  *   16:00 CLOSE
 
@@ -75,8 +75,8 @@ The reserved queue for today is called `ta206_1555696`. To use this queue, chang
 #SBATCH --reservation=ta206_1555696
 ````
 
- * <a href="https://github.com/EPCCed/archer2-AMPP-2026-07-28/raw/main/exercises/ARCHER2-pingpong.pdf">Ping-pong exercise sheet</a>
- * <a href="https://github.com/EPCCed/archer2-AMPP-2026-07-28/raw/main/exercises/pingpong.tar">Ping-pong source code</a>
+ * <a href="exercises/ARCHER2-pingpong.pdf">Ping-pong exercise sheet</a>
+ * <a href="exercises/pingpong.tar">Ping-pong source code</a>
    
  * Description of 3D halo-swapping benchmark is in this <a href="https://github.com/davidhenty/halobench/">README</a>
  * Download the code directly to ARCHER2 using: `git clone https://github.com/davidhenty/halobench`
@@ -94,7 +94,7 @@ The reserved queue for today is called `ta206_1555696`. To use this queue, chang
   in Section 3 to replace point-to-point boundary swapping with neighbourhood collectives. --->
  
 * Collective exercises and solutions are in
-  https://github.com/EPCCed/archer2-AMPP-2026-07-28/raw/main/exercises/collective.tar
+https://github.com/davidhenty/archer2-AMPP-2026-07-28/blob/main/exercises/collective.tar
   (instructions are included in comments at the top of each file).
 
 ---
